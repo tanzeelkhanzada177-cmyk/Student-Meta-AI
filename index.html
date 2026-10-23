@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentMate AI</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>StudentMate AI</h1>
+        <p>Your Smart AI Study Partner</p>
+
+        <textarea id="topic" placeholder="Enter your study topic..."></textarea>
+
+        <div class="buttons">
+            <button onclick="askAI('explain')">Explain Topic</button>
+            <button onclick="askAI('notes')">Generate Notes</button>
+            <button onclick="askAI('quiz')">Generate MCQs</button>
+        </div>
+
+        <div id="result">Your answer will appear here.</div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
